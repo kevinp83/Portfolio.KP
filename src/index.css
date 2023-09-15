@@ -5,8 +5,7 @@
     --tertiary-color: rgb(255,150,0);
     --text-color: #fff;
     --text-color-2: #fff;
-    --text-color-3: rgb(204, 0, 0);
-    --text-color-4: rgb(255,150,0);
+    --text-color-3: rgb(255,150,0);
     --overlay-color: rgb(12 12 12 / 63%);
 }
 
@@ -82,7 +81,7 @@ code {
 }
 
 .cursor__dot div:last-child {
-    background-color: var(--text-color-4) !important;
+    background-color: var(--text-color-3) !important;
 }
 
 .cursor__dot div:first-child {

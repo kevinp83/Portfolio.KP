@@ -128,7 +128,7 @@ section {
 }
 
 .ac_btn:hover {
-    box-shadow: 8px 8px 0px var(--text-color-4), -8px -8px 0px var(--text-color-4);
+    box-shadow: 8px 8px 0px var(--text-color-3), -8px -8px 0px var(--text-color-3);
 }
 
 .ac_btn:hover .one {
