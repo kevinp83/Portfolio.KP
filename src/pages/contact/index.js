@@ -31,7 +31,7 @@ export const ContactUs = () => {
     emailjs
       .send(
         "service_9li51pe",
-        "template_uzbh2xl",
+        "template_6ee7qms",
         templateParams,
         "qKf8OK-pWJLlcjrrr"
       )
