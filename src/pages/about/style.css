@@ -8,7 +8,7 @@
 }
 
 .t_border {
-    border-color: var(--text-color) !important;
+    border-color: var(--text-color-4) !important;
 }
 
 .progress-title {
@@ -29,7 +29,7 @@
 
 .progress .progress-bar {
     position: relative;
-    background: var(--text-color);
+    background: var(--text-color-4);
     animation: animate-positive 2s;
     overflow: visible;
     opacity: 0.9;
@@ -63,7 +63,7 @@
 
 .service__title {
     padding: 8px 0;
-    border-bottom: solid 2px var(--secondary-color);
+    border-bottom: solid 2px var(--tertiary-color);
 }
 
 .service-section .service-category-title {
