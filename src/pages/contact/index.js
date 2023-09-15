@@ -41,7 +41,7 @@ export const ContactUs = () => {
           setFormdata({
             loading: false,
             alertmessage: "Merci pour votre message !",
-            variant: "success",
+            variant: "Merci !",
             show: true,
           });
         },
