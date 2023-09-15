@@ -96,14 +96,14 @@ export const ContactUs = () => {
             <h3 className="color_sec py-4">Pour me joindre</h3>
             <address>
               <strong>E-mail:</strong>{" "}
-              <a href={`mailto:${contactConfig.YOUR_EMAIL}`}>
-                {contactConfig.YOUR_EMAIL}
+              <a href={`mailto:${"service_9li51pe"}`}>
+                {"service_9li51pe"}
               </a>
               <br />
               <br />
               {contactConfig.hasOwnProperty("YOUR_FONE") ? (
                 <p>
-                  <strong>Téléphone:</strong> {contactConfig.YOUR_FONE}
+                  <strong>Téléphone:</strong> {"0636076536"}
                 </p>
               ) : (
                 ""
