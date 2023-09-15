@@ -7,6 +7,14 @@ section {
     transition: all .5s ease-in;
 }
 
+.Typewriter__cursor::before {
+    content: ".";
+    display: inline-block;
+    width: 5px;
+    background-color: rgb(255,150,0);
+    animation: blink is infinite;
+}
+
 .who_am_I {
     font-family: Cinzel;
 }
@@ -96,11 +104,16 @@ section {
     background-position: center;
     min-height: 700px;
     position: relative;
+    box-shadow: rgba(255, 150, 0, 0.8) -5px 5px, 
+    rgba(255, 150, 0, 0.5) -10px 10px, 
+    rgba(255, 150, 0, 0.3) -15px 15px, 
+    rgba(255, 150, 0, 0.2) -20px 20px, 
+    rgba(255, 150, 0, 0.1) -25px 25px;
 }
 
 .ac_btn {
     padding: 4px 19px;
-    color: var(--secondary-color);
+    color: var(--tertiary-color);
     position: relative;
     border: var(--secondary-color) 2px solid;
     overflow: hidden;
@@ -115,7 +128,7 @@ section {
 }
 
 .ac_btn:hover {
-    box-shadow: 8px 8px 0px var(--text-color), -8px -8px 0px var(--text-color);
+    box-shadow: 8px 8px 0px var(--text-color-4), -8px -8px 0px var(--text-color-4);
 }
 
 .ac_btn:hover .one {
@@ -167,7 +180,7 @@ section {
 
 #button_p {
     background: var(--secondary-color);
-    color: var(--primary-color);
+    color: var(--tertiary-color);
 }
 
 #button_h:hover {
