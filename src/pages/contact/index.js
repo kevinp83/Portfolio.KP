@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import * as emailjs from "emailjs-com";
+import emailjs from "@emailjs/browser";
 import "./style.css";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { meta } from "../../content_option";
@@ -40,7 +40,7 @@ export const ContactUs = () => {
           console.log(result.text);
           setFormdata({
             loading: false,
-            alertmessage: "SUCCESS! ,Thankyou for your messege",
+            alertmessage: "Merci pour votre message !",
             variant: "success",
             show: true,
           });
@@ -48,7 +48,7 @@ export const ContactUs = () => {
         (error) => {
           console.log(error.text);
           setFormdata({
-            alertmessage: `Faild to send!,${error.text}`,
+            alertmessage: `Fail to send!,${error.text}`,
             variant: "danger",
             show: true,
           });
@@ -97,7 +97,7 @@ export const ContactUs = () => {
             <address>
               <strong>E-mail:</strong>{" "}
               <a href={`mailto:${"service_9li51pe"}`}>
-                {"service_9li51pe"}
+                {"kevin.mail.pro@gmail.com"}
               </a>
               <br />
               <br />
