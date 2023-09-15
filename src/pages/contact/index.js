@@ -24,7 +24,7 @@ export const ContactUs = () => {
     const templateParams = {
       from_name: formData.email,
       user_name: formData.name,
-      to_name: contactConfig.YOUR_EMAIL,
+      to_name: "kevin.mail.pro@gmail.com",
       message: formData.message,
     };
 
