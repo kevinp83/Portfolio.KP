@@ -179,12 +179,12 @@ section {
 }
 
 #button_p {
-    background: var(--secondary-color);
+    background: rgb(254,254,226);
     color: var(--tertiary-color);
 }
 
 #button_h:hover {
-    color: var(--primary-color)
+    color: rgb(229,125,6)
 }
 
 .intro_sec .h_bg-image .block {

@@ -17,7 +17,7 @@ const introdata = {
 
 const dataabout = {
     title: "A propos de moi",
-    aboutme: "Je suis débutant en développement (Formation fini septembre 2023) mais j'apprends très vite. Je suis fiable et m'engage à faire le nécessaire pour concrétiser les projets conformes aux attentes clients. Bien que novice, je suis rapide et éfficace.",
+    aboutme: "Je suis débutant en développement (Formation Développeur Web OpenClassRoom fini septembre 2023) mais j'apprends très vite. Je suis fiable et m'engage à faire le nécessaire pour concrétiser les projets conformes aux attentes clients. Bien que novice, je suis rapide et éfficace.",
 };
 
 const skills = [{
@@ -57,14 +57,24 @@ const services = [{
 ];
 
 const dataportfolio = [{
-        img: "Nina-carducci-site.png", 
-        description: "Site vitrine du Portfolio de Nina Carducci.",
+        img: "Nina-carducci-site.webp", 
+        description: "Débugg du site vitrine 'Portfolio de Nina Carducci'.",
         link: "https://nina-carducci-photographe-bordeaux.netlify.app/",
     },
     {
-        img: "booki.png",
-        description: "Projet du début de formation full HTML5 CSS3. Site de location immobilière (factice, travail sur le visuel uniquement).",
+        img: "booki.webp",
+        description: "Site de location immobilière (factice, travail sur le visuel uniquement) avec HTML5 et CSS3.",
         link: "https://kevinp83.github.io/",
+    },
+    {
+        img: "kasa.webp",
+        description: "Création d'un application de location immobilière avec Réact.",
+        link: "https://github.com/kevinp83/kasa",
+    },
+    {
+        img: "bluel.webp",
+        description: "Création d'une page web dynamique avec JavaScript !",
+        link: "https://github.com/kevinp83/Sophie-Bluel-Kevin-P",
     },
 ];
 
