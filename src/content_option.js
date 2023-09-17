@@ -12,7 +12,7 @@ const introdata = {
         third: "Je développe avec React",
     },
     description: "De mon amour pour le voyage, m'est venu la passion du code. Pour moi le métier de développeur est le meilleur moyen de pouvoir allier passion et travail. J'engage donc toute mon énergie dans les sites que je développe pour avancer vers une autonomie maximale en freelance.",
-    your_img_url: "IMG_20190907_133935.jpg",
+    your_img_url: "Profil-portfolio.webp",
 };
 
 const dataabout = {
@@ -65,11 +65,6 @@ const dataportfolio = [{
         img: "booki.png",
         description: "Projet du début de formation full HTML5 CSS3. Site de location immobilière (factice, travail sur le visuel uniquement).",
         link: "https://kevinp83.github.io/",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#", 
     },
 ];
 
