@@ -62,9 +62,9 @@ const dataportfolio = [{
         link: "https://nina-carducci-photographe-bordeaux.netlify.app/",
     },
     {
-        img: "https://picsum.photos/400/800/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "booki.png",
+        description: "Projet du début de formation full HTML5 CSS3. Site de location immobilière (factice, travail sur le visuel uniquement).",
+        link: "https://kevinp83.github.io/",
     },
     {
         img: "https://picsum.photos/400/?grayscale",
@@ -77,8 +77,6 @@ const contactConfig = {
     YOUR_EMAIL: "kevin.mail.pro@gmail.com",
     YOUR_FONE: "06.36.07.65.36",
     description: "Pour toute question n'hésitez pas à me contacter (par mail de préférence pour le premier contact, réponse plus rapide). Je répond sous 24h maximum (sauf week-end).",
-    // creat an emailjs.com account 
-    // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
     YOUR_SERVICE_ID: "service_id",
     YOUR_TEMPLATE_ID: "template_id",
     YOUR_USER_ID: "user_id",
