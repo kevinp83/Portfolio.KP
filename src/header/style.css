@@ -36,7 +36,11 @@
 }
 
 .nav_ac:hover {
-    color: var(--text-color-2);
+    color: var(--text-color-3);
+}
+
+.nav_ac:visited {
+    color: var(--text-color-3);
 }
 
 .br-top,
@@ -160,11 +164,12 @@
     padding-bottom: 20vh;
     padding-left: 0;
 }
+.menu__container {
+    margin-left: 33.3333%;
+}
 
 @media (min-width: 992px) {
-    .menu__container {
-        margin-left: 33.3333%;
-    }
+    
     .the_menu {
         padding-top: 10vh;
         padding-bottom: 10vh;
