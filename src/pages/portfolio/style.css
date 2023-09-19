@@ -46,7 +46,7 @@
     opacity: 0;
     transition-delay: 1s;
     transition: 0.3s ease;
-    font-size: 2vw;
+    font-size: 32px;
 }
 
 .po_item:hover {
@@ -69,10 +69,7 @@
     border: solid 1px var(--tertiary-color);
     padding: 1vw 2vw;
     text-align: center;
-    font-size: 1.5vw;
-}
-
-.po_item .content a:hover {
+    font-size: 20px;
     text-decoration: none;
 }
 
@@ -103,5 +100,8 @@
 @media (min-width: 769px) and (max-width: 992px) {
     .po_item {
         height: 320px;
+    }
+    .po_item .content {
+        font-size: 25px; 
     }
 }
