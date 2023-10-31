@@ -7,22 +7,25 @@ const meta = {
 const introdata = {
     title: "Je suis Kevin",
     animated: {
-        first: "J'adore le code et les voyages",
-        second: "J'aimerai lier les deux",
+        first: "J'aime les défis",
+        second: "J'adore apprendre",
         third: "Je développe avec React",
     },
-    description: "De mon amour pour le voyage, m'est venu la passion du code. Pour moi le métier de développeur est le meilleur moyen de pouvoir allier passion et travail. J'engage donc toute mon énergie dans les sites que je développe pour avancer vers une autonomie maximale en freelance.",
+    description: "Ma passion pour la programmation est née parce que j'adorais voyager. Pour moi, devenir développeur est le meilleur moyen d'allier passion et travail. Par conséquent, je mets tous mes efforts dans les sites Web que je développe pour maximiser mon autonomie future en freelance.",
+    description2: "Grâce à ma vaste expérience de voyage, j'ai acquis non seulement une grande indépendance, mais aussi de la force. De plus, ça m'a permis de ne pas avoir peur de l'inconnu et des nouveaux défis, au contraire.",
+    description3: "Pour en savoir plus, n'hésitez pas à me contactez. Un appel ou un rendez-vous vaux 1000 mails.",
+    description4: "Au plaisir d'échangez avec vous, Kevin.",
     your_img_url: "Profil-portfolio.webp",
 };
 
 const dataabout = {
     title: "A propos de moi",
-    aboutme: "Je suis débutant en développement (Formation Développeur Web OpenClassRoom fini septembre 2023) mais j'apprends très vite. Je suis fiable et m'engage à faire le nécessaire pour concrétiser les projets conformes aux attentes clients. Bien que novice, je suis rapide et éfficace.",
+    aboutme: "Je suis débutant en développement (Formation Développeur Web OpenClassRoom terminée septembre 2023) mais j'apprends très vite. Je suis fiable et m'engage à faire le nécessaire pour concrétiser les projets conformes aux attentes clients. Bien que novice, je suis rapide et éfficace.",
 };
 
 const skills = [{
         name: "HTML, CSS",
-        value: 95,
+        value: 90,
     },
     {
         name: "Javascript",
@@ -48,7 +51,7 @@ const skills = [{
 
 const services = [{
         title: "Site complet",
-        description: "Je peux vous créer un site sur mesure complet, responsive et qui répond à vos attentes. En code HTML CSS Javascript ou React.",
+        description: "Je peux vous créer un site sur mesure complet, responsive et qui répond à vos attentes. En code HTML CSS Javascript ou React. Je peux également m'occuper du Back-end de votre site.",
     },
     {
         title: "Site WordPress",
@@ -81,7 +84,7 @@ const dataportfolio = [{
 const contactConfig = {
     YOUR_EMAIL: "kevin.mail.pro@gmail.com",
     YOUR_FONE: "06.36.07.65.36",
-    description: "Pour toute question n'hésitez pas à me contacter (par mail de préférence pour le premier contact, réponse plus rapide). Je répond sous 24h maximum (sauf week-end).",
+    description: "Pour toute question n'hésitez pas à me contacter. Je répond sous 24h maximum.",
     YOUR_SERVICE_ID: "service_id",
     YOUR_TEMPLATE_ID: "template_id",
     YOUR_USER_ID: "user_id",

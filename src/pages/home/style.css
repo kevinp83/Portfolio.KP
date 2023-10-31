@@ -10,13 +10,12 @@ section {
 .Typewriter__cursor::before {
     content: ".";
     display: inline-block;
-    width: 5px;
+    width: 7px;
     background-color: rgb(255,150,0);
     animation: blink is infinite;
 }
-
-.who_am_I {
-    font-family: Cinzel;
+.intro_btn-action {
+    margin-top: 50px;
 }
 
 .has-first-color {
@@ -121,6 +120,7 @@ section {
     cursor: pointer;
     border-radius: 0;
     margin-right: 20px;
+    font-weight: 900;
 }
 
 .ac_btn a {
@@ -179,7 +179,7 @@ section {
 }
 
 #button_p {
-    background: rgb(254,254,226);
+    background: var(--secondary-color);
     color: var(--tertiary-color);
 }
 
