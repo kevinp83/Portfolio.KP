@@ -11,9 +11,11 @@ const introdata = {
         second: "J'adore apprendre",
         third: "Je développe avec React",
     },
-    description: "Mon envie de devenir développeur web est née de ma passion pour le voyage. Devenir développeur c'est trouver l'équilibre parfait entre ma passion et mon travail. D'un tempérament audacieux, j'aime relever les défis et m'investir totalement dans tous les projets. Mes expériences professionnelles variées et mes voyages m'ont forgé une grande capacité d'adaptation. Je ne me lasse jamais d'apprendre, ma curiosité n'a pas de limite.",
-    description2: "Pour en savoir plus, n'hésitez pas à me contacter. Une rencontre vaut 1000 mails. ",
-    description3: "Au plaisir d'échangez avec vous, Kevin.",
+    description: "Mon envie de devenir développeur web est née de ma passion pour le voyage. Devenir développeur c'est trouver l'équilibre parfait entre ma passion et mon travail. ",
+    description2: "D'un tempérament audacieux, j'aime relever les défis et m'investir totalement dans tous les projets. ",
+    description3: "Mes expériences professionnelles variées et mes voyages m'ont forgé une grande capacité d'adaptation. Je ne me lasse jamais d'apprendre, ma curiosité n'a pas de limite.", 
+    description4: "Pour en savoir plus, n'hésitez pas à me contacter. Une rencontre vaut 1000 mails. ",
+    description5: "Au plaisir d'échangez avec vous, Kevin.",
     your_img_url: "Profil-portfolio.webp",
 };
 
