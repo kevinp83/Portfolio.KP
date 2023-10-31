@@ -40,7 +40,6 @@ export const Home = () => {
                 <p className="mb-1x">{introdata.description}</p>
                 <p className="mb-1x">{introdata.description2}</p>
                 <p className="mb-1x">{introdata.description3}</p>
-                <p className="mb-1x">{introdata.description4}</p>
 
                 <div className="intro_btn-action pb-5">
                   <Link to="/portfolio" className="text_2">

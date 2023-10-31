@@ -11,10 +11,9 @@ const introdata = {
         second: "J'adore apprendre",
         third: "Je développe avec React",
     },
-    description: "Ma passion pour la programmation est née parce que j'adorais voyager. Pour moi, devenir développeur est le meilleur moyen d'allier passion et travail. Par conséquent, je mets tous mes efforts dans les sites Web que je développe pour maximiser mon autonomie future en freelance.",
-    description2: "Grâce à ma vaste expérience de voyage, j'ai acquis non seulement une grande indépendance, mais aussi de la force. De plus, ça m'a permis de ne pas avoir peur de l'inconnu et des nouveaux défis, au contraire.",
-    description3: "Pour en savoir plus, n'hésitez pas à me contactez. Un appel ou un rendez-vous vaux 1000 mails.",
-    description4: "Au plaisir d'échangez avec vous, Kevin.",
+    description: "Mon envie de devenir développeur web est née de ma passion pour le voyage. Devenir développeur c'est trouver l'équilibre parfait entre ma passion et mon travail. D'un tempérament audacieux, j'aime relever les défis et m'investir totalement dans tous les projets. Mes expériences professionnelles variées et mes voyages m'ont forgé une grande capacité d'adaptation. Je ne me lasse jamais d'apprendre, ma curiosité n'a pas de limite.",
+    description2: "Pour en savoir plus, n'hésitez pas à me contacter. Une rencontre vaut 1000 mails. ",
+    description3: "Au plaisir d'échangez avec vous, Kevin.",
     your_img_url: "Profil-portfolio.webp",
 };
 
