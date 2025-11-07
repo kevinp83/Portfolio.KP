@@ -1,27 +1,32 @@
 const logotext = "Kevin";
 const meta = {
-    title: "Kevin.P, Portfolio",
-    description: "Bonjour, je suis Kevin, développeur Frontend React débutant ! N'hésitez pas à me contacter pour votre projet.",
+    title: "Kevin.P | Développeur Web",
+    description: "Je conçois des interfaces web modernes, performantes et sur mesure pour donner vie à vos projets en ligne.",
 };
 
 const introdata = {
     title: "Je suis Kevin",
     animated: {
-        first: "J'aime les défis",
-        second: "J'adore apprendre",
-        third: "Je développe avec React",
+        first: "Je conçois des solutions sur mesure",
+        second: "Je transforme vos idées en projets web",
+        third: "Je développe avec passion et précision",
     },
-    description: "Mon envie de devenir développeur web est née de ma passion pour le voyage. Devenir développeur c'est trouver l'équilibre parfait entre ma passion et mon travail. ",
-    description2: "D'un tempérament audacieux, j'aime relever les défis et m'investir totalement dans tous les projets. ",
-    description3: "Mes expériences professionnelles variées et mes voyages m'ont forgé une grande capacité d'adaptation. Je ne me lasse jamais d'apprendre, ma curiosité n'a pas de limite.", 
-    description4: "Pour en savoir plus, n'hésitez pas à me contacter. Une rencontre vaut 1000 mails. ",
-    description5: "Au plaisir d'échangez avec vous, Kevin.",
+    description: "Développeur web, je conçois des sites modernes, fluides et adaptés à vos besoins. Chaque projet est une nouvelle opportunité d'allier design, performance et expérience utilisateur.",
+    description2: "Mon objectif : vous accompagner dans la création d'un produit digital clair, efficace et agréable à utiliser.",
+    description3: "Autonome, curieux et attentif, j'aime comprendre la vision de mes clients pour la traduire en solutions concrètes et élégantes.", 
+    description4: "Vous avez un projet ou une idée à concrétiser ? Discutons-en, je serais ravi d'y apporter mon expertise.",
+    description5: "Au plaisir de collaborer avec vous — Kevin.",
     your_img_url: "Profil-portfolio.webp",
 };
 
 const dataabout = {
     title: "A propos de moi",
-    aboutme: "Je suis débutant en développement (Formation Développeur Web OpenClassRoom terminée septembre 2023) mais j'apprends très vite. Je suis fiable et m'engage à faire le nécessaire pour concrétiser les projets conformes aux attentes clients. Bien que novice, je suis rapide et éfficace.",
+    aboutme: `
+        Développeur web frontend freelance, je suis spécialisé dans la création d'interfaces modernes et performantes avec React et Angular. J'aide les entreprises et les indépendants à donner vie à leurs projets en ligne à travers des solutions fiables, esthétiques et maintenables.<br><br>
+        Passionné par le web et les technologies, je reste en veille constante pour proposer des approches actuelles et efficaces. Chaque mission est pour moi l'occasion d'apprendre, d'échanger et de construire un produit qui a du sens.<br><br>
+        Je travaille selon les méthodologies Agile et Scrum, dans un esprit de transparence et de collaboration. Mon expérience dans différents domaines m'a permis de développer une vraie polyvalence et une grande capacité d'adaptation.<br><br>
+        Si vous recherchez un développeur réactif, rigoureux et à l'écoute pour concrétiser vos idées, je serais ravi d'en discuter avec vous.<br><br>
+        `,
 };
 
 const skills = [{
@@ -41,6 +46,10 @@ const skills = [{
         value: 75,
     },
     {
+        name: "Angular",
+        value: 75,
+    },
+    {
         name: "Node.js",
         value: 70,
     },
@@ -51,12 +60,23 @@ const skills = [{
 ];
 
 const services = [{
-        title: "Site complet",
-        description: "Je peux vous créer un site sur mesure complet, responsive et qui répond à vos attentes. En code HTML CSS Javascript ou React. Je peux également m'occuper du Back-end de votre site.",
+    title: "Site complet",
+    description: "Je conçois des sites web sur mesure, modernes et entièrement responsives, développés en HTML, CSS, JavaScript, React ou Angular. Chaque projet est pensé pour offrir une expérience fluide, performante et adaptée à vos besoins. Je peux également prendre en charge la partie back-end afin de livrer une solution complète et fonctionnelle.",
     },
+
+    {
+        title: "Amélioration",
+        description: "J'optimise l'aspect visuel, les performances et le référencement (SEO) de votre site pour renforcer sa visibilité et offrir une meilleure expérience utilisateur.",
+    },
+
+    {
+        title: "Continuité",
+        description: "Je peux intervenir sur une base de code existante afin d'assurer la maintenance, la mise à jour ou la finalisation d'un projet en cours, tout en respectant les bonnes pratiques déjà mises en place.",
+    },
+
     {
         title: "Site WordPress",
-        description: "Je peux créer des sites sur WordPress, avec des personnalisations à la demande.",
+        description: "Je réalise des sites sous WordPress, avec des thèmes personnalisés et des fonctionnalités développées sur mesure, pour un rendu professionnel, flexible et facile à administrer.",
     },
 ];
 
@@ -84,7 +104,7 @@ const dataportfolio = [{
 
 const contactConfig = {
     YOUR_EMAIL: "kevin.mail.pro@gmail.com",
-    YOUR_FONE: "06.36.07.65.36",
+    YOUR_FONE: "06.26.27.32.73",
     description: "Pour toute question n'hésitez pas à me contacter. Je répond sous 24h maximum.",
     YOUR_SERVICE_ID: "service_id",
     YOUR_TEMPLATE_ID: "template_id",
@@ -92,10 +112,7 @@ const contactConfig = {
 };
 
 const socialprofils = {
-    github: "https://github.com/kevinp83",
-    facebook: "https://www.facebook.com/profile.php?id=61550935532925",
     linkedin: "https://www.linkedin.com/in/kevin-petoux-ba35481a7/",
-    twitter: "https://twitter.com/KevinPetoux",
 };
 export {
     meta,
