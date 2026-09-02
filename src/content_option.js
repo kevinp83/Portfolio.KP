@@ -10,13 +10,15 @@ const introdata = {
         first: "Terrassement",
         second: "Assainissement",
         third: "VRD",
-        fourth: "Design et aménagement paysager",
+        fourth: "Aménagement extérieur",
+        fifth: "Dépannage 24h/24, 7j/7"
     },
-    description: "Créateur de projets d'aménagement, je conçois et mets en œuvre des solutions complètes pour vos terrains et espaces extérieurs. Chaque projet est une nouvelle opportunité d'allier technique, sécurité et esthétisme, que ce soit pour le <span class='desc-color'>Terrassement</span>, l'<span class='desc-color'>Assainissement</span>, les <span class='desc-color'>VRD</span> ou l'<span class='desc-color'>Aménagement Paysager</span>.<br><br>",
-    description2: "Mon objectif : vous accompagner dans la création d'un environnement fonctionnel, durable et harmonieux, en intégrant voirie, réseaux, plantations et aménagements extérieurs de manière cohérente.",
-    description3: "Autonome, curieux et attentif, j'aime comprendre vos besoins et la vision de votre projet pour la traduire en solutions concrètes, efficaces et élégantes.", 
-    description4: "Vous avez un terrain à aménager ou un projet d'infrastructure à réaliser ? Discutons-en, je serai ravi d'y apporter mon expertise.",
-    description5: "Au plaisir de collaborer avec vous — Kevin",
+    description: "<span class='desc-color'>Terrasol</span>, c'est de l'<span class='desc-color'>Assainissement</span>, du <span class='desc-color'>Terrassement</span>, des <span class='desc-color'>VRD</span> et de l'<span class='desc-color'>Aménagement Extérieur</span> dans le Var.<br><br> ",
+    description2: "Chaque terrain a ses contraintes et chaque projet ses besoins. Je prends le temps de les comprendre pour proposer une réalisation adaptée, propre et durable.",
+    description3: "Que vous construisiez, rénoviez ou souhaitiez simplement aménager votre terrain, je vous accompagne directement sur votre projet, de la préparation jusqu'à la réalisation.", 
+    description4: "Terrasol assure également des interventions de dépannage et d'urgence 24h/24 et 7j/7, pour répondre rapidement aux situations qui ne peuvent pas attendre.",
+    description5: "Vous avez un projet ou besoin d'une intervention ? Parlons-en",
+    description6: "- Kevin, Terrasol", 
     your_img_url: "Profil-portfolio.webp",
 };
 
