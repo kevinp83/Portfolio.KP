@@ -30,6 +30,7 @@ export const Home = () => {
                         introdata.animated.first,
                         introdata.animated.second,
                         introdata.animated.third,
+                        introdata.animated.fourth,
                       ],
                       autoStart: true,
                       loop: true,
@@ -37,7 +38,10 @@ export const Home = () => {
                     }}
                   />
                 </h1>
-                <p className="mb-1x">{introdata.description}</p>
+                <div
+                  className="description"
+                  dangerouslySetInnerHTML={{ __html: introdata.description }}
+                ></div>
                 <p className="mb-1x">{introdata.description2}</p>
                 <p className="mb-1x">{introdata.description3}</p>
                 <p className="mb-1x">{introdata.description4}</p>

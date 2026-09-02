@@ -1,12 +1,12 @@
 :root {
-    --bg-color: #0c0c0c;
-    --primary-color: #0d0d0d;
+    --bg-color: #000;
+    --primary-color: #000;
     --secondary-color: #fff;
     --tertiary-color: rgb(255,150,0);
     --text-color: #fff;
     --text-color-2: #fff;
     --text-color-3: rgb(255,150,0);
-    --overlay-color: rgb(12 12 12 / 63%);
+    --overlay-color: #000;
 }
 
 [data-theme="light"] {
@@ -60,7 +60,12 @@ a:hover {
 
 p {
     word-break: break-word;
-    hyphens: auto;
+    hyphens: auto;  
+}
+
+.desc-color {
+    color: var(--text-color-3);
+    font-weight: bold;
 }
 
 .ovhidden {

@@ -24,10 +24,10 @@ export const Portfolio = () => {
             return (
               <div key={i} className="po_item">
                 <img src={data.img} alt="" />
-                <div className="content">
+                {/* <div className="content">
                   <p>{data.description}</p>
                   <a href={data.link} target="_blank" rel="noreferrer">Voir le projet</a>
-                </div>
+                </div> */}
               </div>
             );
           })}

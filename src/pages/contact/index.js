@@ -22,15 +22,14 @@ export const ContactUs = () => {
     setFormdata({ loading: true });
 
     const templateParams = {
-      from_name: formData.email,
-      user_name: formData.name,
-      to_name: "kevin.mail.pro@gmail.com",
+      from_name: formData.name,
+      reply_to: formData.email,
       message: formData.message,
     };
 
     emailjs
       .send(
-        "service_9li51pe",
+        "service_3okg45q",
         "template_6ee7qms",
         templateParams,
         "qKf8OK-pWJLlcjrrr"
@@ -97,7 +96,7 @@ export const ContactUs = () => {
             <address>
               <strong>E-mail:</strong>{" "}
               <a href={`mailto:${"service_9li51pe"}`}>
-                {"kevin.mail.pro@gmail.com"}
+                {"contact@terrasol83.com"}
               </a>
               <br />
               <br />
@@ -148,6 +147,8 @@ export const ContactUs = () => {
                 value={formData.message}
                 onChange={handleChange}
                 required
+                lang="fr"
+                spellCheck="false"
               ></textarea>
               <br />
               <Row>
