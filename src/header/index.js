@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./style.css";
 import { VscGrabber, VscClose } from "react-icons/vsc";
 import { Link } from "react-router-dom";
-import { logoTp ,socialprofils } from "../content_option";
+import { logoTp } from "../content_option";
 import Themetoggle from "../components/themetoggle";
 
 const Headermain = () => {
@@ -37,9 +37,9 @@ const Headermain = () => {
                   <li className="menu_item ">
                   <Link  onClick={handleToggle} to="/" className="my-3">Accueil</Link>
                   </li>
-                  <li className="menu_item">
+                  {/* <li className="menu_item">
                     <Link  onClick={handleToggle} to="/portfolio" className="my-3">Portfolio</Link>
-                  </li>
+                  </li> */}
                   <li className="menu_item">
                   <Link onClick={handleToggle} to="/about" className="my-3">A Propos</Link>
                   </li>
@@ -51,10 +51,10 @@ const Headermain = () => {
             </div>
           </div>
           <div className="menu_footer d-flex flex-column flex-md-row justify-content-between align-items-md-center position-absolute w-100 p-3">
-            <div className="d-flex">
+            {/* <div className="d-flex">
             <a href={socialprofils.linkedin}>Linkedin</a>
-            </div>
-            <p className="copyright m-0">copyright __ {logoTp}</p>
+            </div> */}
+            {/* <p className="copyright m-0">copyright __ {logoTp}</p> */}
           </div>
         </div>
       </header>

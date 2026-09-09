@@ -1,7 +1,7 @@
 const logoTp = "/logo.ico";
 const meta = {
     title: "Terrasol 83",
-    description: "Entreprise de terrassement, assainissement et VRD basée dans le Var, nous intervenons pour tous vos travaux d'aménagement extérieur. Devis gratuit.",
+    description: "Entreprise de terrassement, assainissement, dépannage et VRD basée dans le Var, nous intervenons pour tous vos travaux d'aménagement extérieur. Devis gratuit.",
 };
 
 const introdata = {

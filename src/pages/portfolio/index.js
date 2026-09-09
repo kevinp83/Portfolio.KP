@@ -12,6 +12,7 @@ export const Portfolio = () => {
           <meta charSet="utf-8" />
           <title> Portfolio | {meta.title} </title>{" "}
           <meta name="description" content={meta.description} />
+          <link rel="canonical" href="https://terrasol83.com/portfolio" />
         </Helmet>
         <Row className="mb-5 mt-3 pt-md-3">
           <Col lg="8">
