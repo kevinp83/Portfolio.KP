@@ -1,3 +1,43 @@
+Changement de la couleur du logo en fonction du thème du site
+.header-logo {
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.header-logo .logo {
+    height: 80px;
+    width: auto;
+}
+
+/* Par défaut : logo clair */
+.logo-light {
+    display: block;
+}
+
+.logo-dark {
+    display: none;
+}
+
+/* Thème sombre */
+[data-theme="dark"] .logo-light {
+    display: none;
+}
+
+[data-theme="dark"] .logo-dark {
+    display: block;
+}
+
+/* Thème clair */
+[data-theme="light"] .logo-light {
+    display: block;
+}
+
+[data-theme="light"] .logo-dark {
+    display: none;
+}
+
+
 .site__header {
     height: 90px;
     top: 10px;
