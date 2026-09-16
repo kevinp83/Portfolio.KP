@@ -1,5 +1,17 @@
 [[redirects]]
+  from = "http://petoux-tp.fr/*"
+  to = "https://terrasol83.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
   from = "https://petoux-tp.fr/*"
+  to = "https://terrasol83.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://www.petoux-tp.fr/*"
   to = "https://terrasol83.com/:splat"
   status = 301
   force = true
